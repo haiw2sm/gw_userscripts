@@ -1,0 +1,22 @@
+{
+  "metadata": {
+    "header": "==UserScript==",
+    "tail": "==/UserScript=="
+  },
+  "data": {
+    "name": "New User Script",
+    "namespace": "http://github.com/haiw2sm/gw_userscripts",
+    "description": "try to take over the world!",
+    "version": "0.1.0",
+    "author": "test",
+    "match": ["*://*/*"],
+    "require": [],
+    "grant": ["GM_addStyle", "GM_setValue", "GM_getValue"],
+    "run-at": "document-start",
+    "icon": "https://favicon.pub/pranx.com",
+    "homepageURL": "http://github.com/haiw2sm/gw_userscripts",
+    "supportURL": "http://github.com/haiw2sm/gw_userscripts/issues",
+    "downloadURL": "https://raw.githubusercontent.com/haiw2sm/gw_userscripts/main/xxx.user.js",
+    "updateURL": "https://raw.githubusercontent.com/haiw2sm/gw_userscripts/main/xxx.user.js"
+  }
+}

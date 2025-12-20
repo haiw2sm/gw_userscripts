@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "header": "==UserScript==",
+    "tail": "==/UserScript=="
+  },
+  "data": {
+    "name": "New User Script",
+    "namespace": "http://tampermonkey.net/",
+    "description": "try to take over the world!",
+    "version": "0.1.0",
+    "author": "test",
+    "match": ["*://*/*"],
+    "require": [],
+    "grant": ["GM_addStyle", "GM_setValue", "GM_getValue"],
+    "run-at": "document-start",
+    "homepageURL": "",
+    "supportURL": "",
+    "downloadURL": "",
+    "updateURL": ""
+  }
+}

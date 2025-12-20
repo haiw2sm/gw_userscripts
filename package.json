@@ -1,0 +1,28 @@
+{
+  "name": "gw-userscripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "vscode:prepublish": "npm run package",
+    "compile": "webpack --mode development",
+    "watch": "webpack --watch",
+    "build": "webpack --mode development && pwsh scripts/merge.ps1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/generator": "^7.28.5",
+    "@babel/parser": "^7.28.5",
+    "@babel/traverse": "^7.28.5",
+    "@babel/types": "^7.28.5",
+    "jsdom": "^26.1.0"
+  },
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.3.16",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
+  }
+}
